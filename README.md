@@ -22,13 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/image-product-desktop.jpg)
-![](images/image-product-mobile.jpg)
+![](images/mobile-view.jpg)
+![](images/desktop-view.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [View solution on Frontend Mentor](https://your-solution-url.com)
+- [View live site](https://product-preview-card-component-denniskin.vercel.app/)
 
 
 ## My process
