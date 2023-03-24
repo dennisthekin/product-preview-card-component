@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --very-dark-cyan: hsl(157, 28%, 18%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    --font-size: 0.875rem; /* 14px */
+}
+
+body {
+    background-color: var(--cream);
+    font-family: 'Montserrat', sans-serif;
+
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 340px;
+}
+
+.card__content {
+    padding: 1.5em;
+}
+
+.card__subtext {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    font-size: var(--font-size);
+    color: var(--dark-grayish-blue);
+    margin-bottom: .75em;
+}
+
+.card__title {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card__text {
+    color: var(--dark-grayish-blue);
+    font-size: var(--font-size);
+    margin: 1em 0 1.5em 0;
+    line-height: 1.6;
+}
+
+.card__price {
+    font-size: 2rem;
+    display: flex;
+    font-family: 'Fraunces', serif;
+    color: var(--dark-cyan);
+}
+
+.price--strikethrough {
+    text-decoration: line-through;
+    font-size: 1rem;
+    align-self: center;
+    margin-left: 1em;
+    font-size: var(--font-size);
+    color: var(--dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.btn {
+    border: none;
+    width: 100%;
+    color: var(--white);
+    background-color: var(--dark-cyan);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-weight: 700;
+    font-size: .85rem;
+    margin-top: 1em;
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+    background-color: var(--very-dark-cyan);
+}
+
+.btn__text {
+    margin-left: .75em;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 800px) {
+
+    
+    .card {
+        width: 70%;
+        max-width: 600px;
+        display: flex;
+    }
+
+    .card__img {
+        width: 50%;
+    }
+
+    .card__content {
+        width: 50%;
+        padding: 1.8em;
+    }
+
+
+    .img {
+        border-radius: 10px 0 0 10px;
+        height: 100%;
+        content: url("images/image-product-desktop.jpg");
+    }
+
+    .card__subtext {
+        margin-bottom: 1.5em;
+    }
+
+    .card__text {
+        margin: 1.5em 0 1.5em 0;
+    }
+
+    .card__price {
+        margin-bottom: 1em;
+    }
+}
