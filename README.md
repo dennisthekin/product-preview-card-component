@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/mobile-view.jpg)
-![](images/desktop-view.jpg)
+![mobile-view](images/mobile-view.jpg)
+![desktop-view](images/desktop-view.jpg)
 
 ### Links
 
-- [View solution on Frontend Mentor](https://your-solution-url.com)
+- [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-card-using-flexbox-centered-card-using-grid--LvBlSXqu7)
 - [View live site](https://product-preview-card-component-denniskin.vercel.app/)
 
 
