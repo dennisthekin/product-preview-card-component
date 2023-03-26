@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile-view](images/mobile-view.jpg)
-![desktop-view](images/desktop-view.jpg)
+- ![desktop-view](images/desktop-view.jpg)
+- ![mobile-view](images/mobile-view.jpg)
 
 ### Links
 
@@ -53,4 +53,3 @@ Used the 'content' property with the 'url()' value to replace the mobile image w
 ## Author
 
 - Frontend Mentor - [@dennisthekin](https://www.frontendmentor.io/profile/dennisthekin)
-
